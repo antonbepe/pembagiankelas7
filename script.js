@@ -1,61 +1,82 @@
-// ==============================
-// Portal Pembagian Kelas
-// SMP Negeri 1 Slogohimo
-// ==============================
-
 const tableBody = document.getElementById("tableBody");
 const tabs = document.querySelectorAll(".tab");
 
+let workbook;
+
+// Membaca file Excel
+async function loadExcel() {
+
+    const response = await fetch("data.xlsx");
+    const arrayBuffer = await response.arrayBuffer();
+
+    workbook = XLSX.read(arrayBuffer, {
+        type: "array"
+    });
+
+    renderTable("7A");
+}
+
+// Menampilkan data
 function renderTable(kelas) {
 
     tableBody.innerHTML = "";
 
-    if (typeof studentData === "undefined") {
-        tableBody.innerHTML = `
-        <tr>
-            <td colspan="5" style="padding:30px;text-align:center;color:red">
-                File data.js belum dimuat.
-            </td>
-        </tr>`;
-        return;
-    }
+    const sheetName = "KELAS " + kelas;
 
-    const data = studentData[kelas];
+    const sheet = workbook.Sheets[sheetName];
 
-    if (!data || data.length === 0) {
+    if (!sheet) {
+
         tableBody.innerHTML = `
         <tr>
             <td colspan="5" style="padding:30px;text-align:center">
-                Data kelas ${kelas} belum tersedia.
+                Sheet ${sheetName} tidak ditemukan.
             </td>
-        </tr>`;
+        </tr>
+        `;
+
         return;
     }
 
-    data.forEach((siswa, index) => {
+    // baca seluruh sheet
+    const rows = XLSX.utils.sheet_to_json(sheet, {
+        header: 1
+    });
 
-        const row = document.createElement("tr");
+    // data mulai baris ke-6
+    const data = rows.slice(5);
 
-        row.innerHTML = `
+    data.forEach((row, index) => {
+
+        if (!row[3]) return;
+
+        tableBody.innerHTML += `
+        <tr>
             <td>${index + 1}</td>
-            <td>${siswa.absen}</td>
-            <td>${siswa.induk}</td>
-            <td style="text-align:left">${siswa.nama}</td>
-            <td>${siswa.jk}</td>
+            <td>${row[1]}</td>
+            <td>${row[2]}</td>
+            <td style="text-align:left">${row[3]}</td>
+            <td>${row[4]}</td>
+        </tr>
         `;
 
-        tableBody.appendChild(row);
     });
+
 }
 
+// Event Tab
 tabs.forEach(tab => {
+
     tab.addEventListener("click", () => {
 
         tabs.forEach(btn => btn.classList.remove("active"));
+
         tab.classList.add("active");
 
         renderTable(tab.dataset.class);
+
     });
+
 });
 
-renderTable("7A");
+loadExcel();
