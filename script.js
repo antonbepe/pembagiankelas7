@@ -1,164 +1,78 @@
-// =======================================
+// =====================================
 // Portal Pembagian Kelas VII
 // SMP Negeri 1 Slogohimo
-// =======================================
+// =====================================
 
 const tableBody = document.getElementById("tableBody");
-const tabsContainer = document.getElementById("tabs");
 const searchInput = document.getElementById("searchInput");
-const jumlahSiswa = document.getElementById("jumlahSiswa");
+const studentCount = document.getElementById("studentCount");
+const currentClass = document.getElementById("currentClass");
 const loading = document.getElementById("loading");
 
-let workbook = null;
-let currentSheet = "";
-let currentData = [];
+let allData = {};
+let activeClass = "7A";
 
-// =============================
-// Loading
-// =============================
+// =========================
+// Load JSON
+// =========================
 
-function showLoading() {
+async function loadData() {
+
     loading.classList.add("show");
-}
-
-function hideLoading() {
-    loading.classList.remove("show");
-}
-
-// =============================
-// Membaca Excel
-// =============================
-
-async function loadExcel() {
 
     try {
 
-        showLoading();
-
-        const response = await fetch("data.xlsx");
+        const response = await fetch("data.json");
 
         if (!response.ok) {
-            throw new Error("File data.xlsx tidak ditemukan.");
+
+            throw new Error("data.json tidak ditemukan.");
+
         }
 
-        const buffer = await response.arrayBuffer();
+        allData = await response.json();
 
-        workbook = XLSX.read(buffer, {
-            type: "array"
-        });
-        console.log(workbook.SheetNames);
+        renderTable(activeClass);
 
-        createTabs();
+    } catch (err) {
 
-    } catch(err){
-
-    loading.classList.remove("show");
-
-    tableBody.innerHTML=`
-    <tr>
-        <td colspan="5" style="
-            padding:40px;
-            text-align:center;
-            color:red;
-            font-weight:600;
-        ">
-            ❌ ${err.message}
-        </td>
-    </tr>
-    `;
-
-};
+        tableBody.innerHTML = `
+        <tr>
+            <td colspan="5" style="padding:30px;text-align:center;color:red;">
+                ${err.message}
+            </td>
+        </tr>
+        `;
 
     }
 
-}
-console.log(workbook.SheetNames);
-
-// =============================
-// Membuat Tab
-// =============================
-
-function createTabs() {
-
-    tabsContainer.innerHTML = "";
-
-    workbook.SheetNames.forEach((sheet, index) => {
-
-        const btn = document.createElement("button");
-
-        btn.className = "tab";
-
-        if (index === 0) btn.classList.add("active");
-
-        btn.textContent = sheet.replace("KELAS ", "");
-
-        btn.dataset.sheet = sheet;
-
-        btn.onclick = () => {
-
-            document.querySelectorAll(".tab")
-                .forEach(t => t.classList.remove("active"));
-
-            btn.classList.add("active");
-
-            renderSheet(sheet);
-
-        };
-
-        tabsContainer.appendChild(btn);
-
-    });
-
-    renderSheet(workbook.SheetNames[0]);
+    loading.classList.remove("show");
 
 }
 
-// =============================
-// Membaca Sheet
-// =============================
+// =========================
+// Render Table
+// =========================
 
-function renderSheet(sheetName) {
+function renderTable(kelas) {
 
-    currentSheet = sheetName;
+    activeClass = kelas;
 
-    const sheet = workbook.Sheets[sheetName];
+    currentClass.textContent = "Kelas : " + kelas;
 
-    const rows = XLSX.utils.sheet_to_json(sheet, {
-        header: 1
-    });
+    const data = allData[kelas] || [];
 
-    // Header ada di baris ke-5
-    // Data mulai baris ke-6
-    currentData = rows
-        .slice(5)
-        .filter(r => r.length > 0 && r[3]);
-
-    renderTable(currentData);
-
-}
-
-// =============================
-// Menampilkan Tabel
-// =============================
-
-function renderTable(data) {
+    studentCount.textContent =
+        "Jumlah Siswa : " + data.length;
 
     tableBody.innerHTML = "";
-
-    jumlahSiswa.textContent =
-        `Jumlah Siswa : ${data.length}`;
-        const laki = data.filter(r => String(r[4]).trim() === "L").length;
-const perempuan = data.filter(r => String(r[4]).trim() === "P").length;
-
-document.getElementById("genderInfo").textContent =
-`👦 ${laki} | 👧 ${perempuan}`;
 
     if (data.length === 0) {
 
         tableBody.innerHTML = `
         <tr>
-            <td colspan="5" style="padding:25px;text-align:center;">
-                Tidak ada data.
+            <td colspan="5" style="text-align:center;padding:30px;">
+                Belum ada data.
             </td>
         </tr>
         `;
@@ -167,80 +81,110 @@ document.getElementById("genderInfo").textContent =
 
     }
 
-    data.forEach((row, index) => {
+    data.forEach((siswa, index) => {
 
-        const tr = document.createElement("tr");
+        tableBody.innerHTML += `
 
-        tr.innerHTML = `
+        <tr>
+
             <td>${index + 1}</td>
-            <td>${row[1] ?? ""}</td>
-            <td>${row[2] ?? ""}</td>
-            <td style="text-align:left">${row[3] ?? ""}</td>
-            <td>${row[4] ?? ""}</td>
-        `;
 
-        tableBody.appendChild(tr);
+            <td>${siswa.absen}</td>
+
+            <td>${siswa.induk}</td>
+
+            <td style="text-align:left">
+                ${siswa.nama}
+            </td>
+
+            <td>${siswa.jk}</td>
+
+        </tr>
+
+        `;
 
     });
 
 }
 
-// =============================
+// =========================
+// Tab Kelas
+// =========================
+
+document.querySelectorAll(".tab").forEach(btn => {
+
+    btn.onclick = function () {
+
+        document.querySelectorAll(".tab")
+            .forEach(t => t.classList.remove("active"));
+
+        this.classList.add("active");
+
+        renderTable(this.dataset.sheet);
+
+    };
+
+});
+
+// =========================
 // Pencarian
-// =============================
+// =========================
 
 searchInput.addEventListener("keyup", function () {
 
-    const keyword = this.value
-        .trim()
-        .toLowerCase();
+    const keyword = this.value.toLowerCase();
 
-    if (keyword === "") {
+    const data = (allData[activeClass] || []).filter(siswa =>
 
-        document.getElementById("currentClass").textContent = sheetName;
+        siswa.nama.toLowerCase().includes(keyword)
 
-document.getElementById("lastUpdate").textContent =
-    "Data dimuat : " +
-    new Date().toLocaleString("id-ID");
+    );
 
-        renderTable(currentData);
+    studentCount.textContent =
+        "Jumlah Siswa : " + data.length;
+
+    tableBody.innerHTML = "";
+
+    if (data.length === 0) {
+
+        tableBody.innerHTML = `
+        <tr>
+            <td colspan="5" style="text-align:center;padding:30px;">
+                Data tidak ditemukan.
+            </td>
+        </tr>
+        `;
 
         return;
 
     }
 
-    const hasil = currentData.filter(row => {
+    data.forEach((siswa, index) => {
 
-        return String(row[3] ?? "")
-            .toLowerCase()
-            .includes(keyword);
+        tableBody.innerHTML += `
+
+        <tr>
+
+            <td>${index + 1}</td>
+
+            <td>${siswa.absen}</td>
+
+            <td>${siswa.induk}</td>
+
+            <td style="text-align:left">
+                ${siswa.nama}
+            </td>
+
+            <td>${siswa.jk}</td>
+
+        </tr>
+
+        `;
 
     });
 
-    renderTable(hasil);
-
 });
 
-// =============================
+// =========================
 
-loadExcel();
-
-// =============================
-// Refresh
-// =============================
-
-document
-.getElementById("refreshBtn")
-.addEventListener("click", loadExcel);
-
-// =============================
-// Cetak
-// =============================
-
-document
-.getElementById("printBtn")
-.addEventListener("click", () => {
-
-    window.print();
-
-});
+loadData();
