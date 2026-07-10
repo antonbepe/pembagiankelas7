@@ -59,17 +59,21 @@ function renderTable(data){
 
     tableBody.innerHTML = "";
 
-    data.forEach((siswa,index)=>{
+    data.forEach((siswa, index) => {
 
-        tableBody.innerHTML += `
-        <tr>
-            <td>${index+1}</td>
-            <td>${siswa.ABSEN}</td>
-            <td>${siswa.INDUK}</td>
-            <td>${siswa.NAMA}</td>
-            <td>${siswa.JK}</td>
-        </tr>`;
-    });
+    tableBody.innerHTML += `
+    <tr>
+        <td>${index + 1}</td>
+        <td>${siswa.ABSEN}</td>
+        <td>${siswa.INDUK}</td>
+        <td style="text-align:left">
+            ${siswa.NAMA}
+        </td>
+        <td>${siswa.JK}</td>
+    </tr>
+    `;
+
+});
 
 }
 
