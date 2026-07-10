@@ -89,15 +89,15 @@ function renderTable(kelas) {
 
             <td>${index + 1}</td>
 
-            <td>${siswa.absen}</td>
+            <td>${siswa.ABSEN}</td>
 
-            <td>${siswa.induk}</td>
+            <td>${siswa.INDUK}</td>
 
             <td style="text-align:left">
-                ${siswa.nama}
+                ${siswa.NAMA}
             </td>
 
-            <td>${siswa.jk}</td>
+            <td>${siswa.JK}</td>
 
         </tr>
 
