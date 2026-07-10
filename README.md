@@ -1,8 +1,9 @@
-Tambahkan file xlsx.full.min.js ke folder ini, lalu upload ke GitHub.
-Struktur:
-- index.html
-- script.js
-- style.css
-- data.xlsx
-- logo.png
-- xlsx.full.min.js
+pembagiankelas7/
+│
+├── index.html     ✅
+├── style.css
+├── script.js
+├── data.xlsx
+├── xlsx.full.min.js
+├── logo.png
+└── README.md
