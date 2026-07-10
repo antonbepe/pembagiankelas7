@@ -60,7 +60,7 @@ function renderTable(kelas) {
 
     currentClass.textContent = "Kelas : " + kelas;
 
-    const data = allData[kelas] || [];
+    const data = (allData[kelas] || []).filter(siswa => siswa.ABSEN);
 
     studentCount.textContent =
         "Jumlah Siswa : " + data.length;
