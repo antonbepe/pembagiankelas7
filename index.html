@@ -15,7 +15,6 @@
     <link rel="icon" href="logo.png">
 
     <!-- Google Font -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,27 +23,23 @@
         rel="stylesheet">
 
     <!-- CSS -->
-
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <!-- =========================
-         HEADER
-    ========================== -->
+    <!-- ================= HEADER ================= -->
 
     <header class="header">
 
-        <div class="logo-area">
+        <div class="logo">
 
-            <img src="logo.png"
-                alt="Logo SMP Negeri 1 Slogohimo">
+            <img src="logo.png" alt="Logo SMP Negeri 1 Slogohimo">
 
         </div>
 
-        <div class="title-area">
+        <div class="header-text">
 
             <h1>SMP NEGERI 1 SLOGOHIMO</h1>
 
@@ -56,70 +51,56 @@
 
     </header>
 
-    <!-- =========================
-         TOOLBAR
-    ========================== -->
+    <!-- ================= TOOLBAR ================= -->
 
     <section class="toolbar">
 
-        <div class="search-area">
+        <div class="search-box">
 
             <input
                 type="text"
                 id="searchInput"
-                placeholder="🔍 Cari Nama Peserta Didik...">
+                placeholder="Cari Nama Peserta Didik...">
 
         </div>
 
         <div class="toolbar-info">
 
             <span id="currentClass">
-
-                Memuat...
-
+                Kelas :
             </span>
 
-            <span id="jumlahSiswa">
-
+            <span id="studentCount">
                 Jumlah Siswa : 0
-
             </span>
 
         </div>
 
     </section>
 
-    <!-- =========================
-         TAB KELAS
-    ========================== -->
+    <!-- ================= TAB ================= -->
 
-    <nav
-        id="tabs"
-        class="tabs">
+    <nav id="classTabs" class="class-tabs">
+
+        <!-- Dibuat otomatis oleh script.js -->
 
     </nav>
 
-    <!-- =========================
-         LOADING
-    ========================== -->
+    <!-- ================= LOADING ================= -->
 
-    <section
-        id="loading"
-        class="loading">
+    <div id="loading" class="loading">
 
         <div class="spinner"></div>
 
         <p>Membaca data.xlsx ...</p>
 
-    </section>
+    </div>
 
-    <!-- =========================
-         TABLE
-    ========================== -->
+    <!-- ================= TABLE ================= -->
 
     <main class="container">
 
-        <div class="table-card">
+        <div class="table-wrapper">
 
             <table id="studentTable">
 
@@ -151,25 +132,19 @@
 
     </main>
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+    <!-- ================= FOOTER ================= -->
 
     <footer>
 
-        © 2026 SMP Negeri 1 Slogohimo
+        <p>© 2026 SMP Negeri 1 Slogohimo</p>
 
     </footer>
 
-    <!-- =========================
-         LIBRARY
-    ========================== -->
+    <!-- ================= LIBRARY ================= -->
 
     <script src="xlsx.full.min.js"></script>
 
-    <!-- =========================
-         JAVASCRIPT
-    ========================== -->
+    <!-- ================= SCRIPT ================= -->
 
     <script src="script.js"></script>
 
