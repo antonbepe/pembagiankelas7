@@ -492,4 +492,40 @@ footer{
 
 }
 
+   .tab{
+
+    border:none;
+
+    padding:11px 22px;
+
+    border-radius:25px;
+
+    background:#E3F2FD;
+
+    color:#0D47A1;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+.tab:hover{
+
+    background:#1565C0;
+
+    color:white;
+
+}
+
+.tab.active{
+
+    background:#0D47A1;
+
+    color:white;
+
+}
+
 }
