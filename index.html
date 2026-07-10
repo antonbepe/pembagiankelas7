@@ -1,40 +1,46 @@
-<div class="class-info">
-
-    <h3 id="currentClass">
-        KELAS 7A
-    </h3>
-
-    <p id="lastUpdate">
-        Memuat data...
-    </p>
-
-</div>
 <!DOCTYPE html>
 <html lang="id">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Portal Pembagian Kelas VII | SMP Negeri 1 Slogohimo</title>
 
+    <meta name="description"
+        content="Portal Pembagian Kelas VII SMP Negeri 1 Slogohimo Tahun Ajaran 2026/2027">
+
+    <link rel="icon" href="logo.png">
+
+    <!-- Google Font -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
+    <!-- CSS -->
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- =========================
+         HEADER
+    ========================== -->
+
     <header class="header">
 
         <div class="logo-area">
 
-            <img src="logo.png" alt="Logo SMPN 1 Slogohimo">
+            <img src="logo.png"
+                alt="Logo SMP Negeri 1 Slogohimo">
 
         </div>
 
@@ -50,67 +56,67 @@
 
     </header>
 
+    <!-- =========================
+         TOOLBAR
+    ========================== -->
 
-    <!-- TOOLBAR -->
     <section class="toolbar">
 
-        <div class="search-box">
+        <div class="search-area">
 
             <input
                 type="text"
                 id="searchInput"
                 placeholder="🔍 Cari Nama Peserta Didik...">
 
-        <section class="toolbar">
+        </div>
 
-    <div class="search-box">
-        <input
-            type="text"
-            id="searchInput"
-            placeholder="🔍 Cari Nama Peserta Didik...">
-    </div>
+        <div class="toolbar-info">
 
-    <div class="toolbar-right">
+            <span id="currentClass">
 
-        <span id="jumlahSiswa">
-            Jumlah Siswa : 0
-        <span id="genderInfo"></span>
+                Memuat...
 
-        <button id="refreshBtn" class="action-btn">
-            🔄 Refresh
-        </button>
+            </span>
 
-        <button id="printBtn" class="action-btn">
-            🖨️ Cetak
-        </button>
+            <span id="jumlahSiswa">
 
-    </div>
+                Jumlah Siswa : 0
 
-</section>
+            </span>
+
         </div>
 
     </section>
 
+    <!-- =========================
+         TAB KELAS
+    ========================== -->
 
-    <!-- TAB KELAS -->
-    <nav id="tabs" class="tabs">
-
-        <!-- Dibuat otomatis oleh script.js -->
+    <nav
+        id="tabs"
+        class="tabs">
 
     </nav>
 
+    <!-- =========================
+         LOADING
+    ========================== -->
 
-    <!-- LOADING -->
-    <div id="loading" class="loading">
+    <section
+        id="loading"
+        class="loading">
 
         <div class="spinner"></div>
 
-        <p>Membaca Data Excel...</p>
+        <p>Membaca data.xlsx ...</p>
 
-    </div>
+    </section>
 
+    <!-- =========================
+         TABLE
+    ========================== -->
 
-    <!-- TABEL -->
     <main class="container">
 
         <div class="table-card">
@@ -145,23 +151,26 @@
 
     </main>
 
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
-    <!-- FOOTER -->
     <footer>
-
-        Portal Pembagian Kelas VII<br>
 
         © 2026 SMP Negeri 1 Slogohimo
 
-</footer>
-
     </footer>
 
+    <!-- =========================
+         LIBRARY
+    ========================== -->
 
-    <!-- SheetJS -->
     <script src="xlsx.full.min.js"></script>
 
-    <!-- Script -->
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
     <script src="script.js"></script>
 
 </body>
