@@ -1,8 +1,3 @@
-const tableBody = document.getElementById("tableBody");
-
-tableBody.innerHTML = "";
-const tabs = document.querySelectorAll(".tab");
-
 let workbook;
 
 // Membaca file Excel
