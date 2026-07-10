@@ -9,8 +9,8 @@ const studentCount = document.getElementById("studentCount");
 const currentClass = document.getElementById("currentClass");
 const loading = document.getElementById("loading");
 
-let allData = {};
-let activeClass = "7A";
+let allData = {kelas};
+
 
 // =========================
 // Load JSON
