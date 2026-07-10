@@ -27,15 +27,17 @@ function renderTable(kelas) {
 
     if (!sheet) {
 
-        tableBody.innerHTML = `
-        <tr>
-            <td colspan="5" style="padding:30px;text-align:center">
-                Sheet ${sheetName} tidak ditemukan.
-            </td>
-        </tr>
-        `;
+        const tr = document.createElement("tr");
 
-        return;
+        tr.innerHTML = `
+        <td>${index + 1}</td>
+        <td>${row[1] ?? ""}</td>
+        <td>${row[2] ?? ""}</td>
+        <td style="text-align:left">${row[3] ?? ""}</td>
+        <td>${row[4] ?? ""}</td>
+        `;
+        
+        tableBody.appendChild(tr);
     }
 
     // baca seluruh sheet
