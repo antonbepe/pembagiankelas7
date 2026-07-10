@@ -46,6 +46,7 @@ async function loadExcel() {
         workbook = XLSX.read(buffer, {
             type: "array"
         });
+        console.log(workbook.SheetNames);
 
         createTabs();
 
