@@ -55,11 +55,23 @@ async function loadData() {
 // Render Table
 // =========================
 
-function renderTable(kelas) {
+function renderTable(data){
 
-    activeClass = kelas;
+    tableBody.innerHTML = "";
 
-    currentClass.textContent = "Kelas : " + kelas;
+    data.forEach((siswa,index)=>{
+
+        tableBody.innerHTML += `
+        <tr>
+            <td>${index+1}</td>
+            <td>${siswa.ABSEN}</td>
+            <td>${siswa.INDUK}</td>
+            <td>${siswa.NAMA}</td>
+            <td>${siswa.JK}</td>
+        </tr>`;
+    });
+
+}
 
     const data = (allData[kelas] || []).filter(siswa => siswa.ABSEN);
 
