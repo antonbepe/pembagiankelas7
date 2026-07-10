@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portal Pembagian Kelas VII</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            <img src="logo.png" alt="Logo Sekolah">
+        </div>
+
+        <div class="title">
+            <h1>SMP NEGERI 1 SLOGOHIMO</h1>
+            <p>Portal Pembagian Kelas VII</p>
+            <span>Tahun Ajaran 2026/2027</span>
+        </div>
+
+    </header>
+
+    <!-- Tab Kelas -->
+    <nav class="tabs">
+
+        <button class="tab active" data-class="7A">KELAS 7A</button>
+        <button class="tab" data-class="7B">KELAS 7B</button>
+        <button class="tab" data-class="7C">KELAS 7C</button>
+        <button class="tab" data-class="7D">KELAS 7D</button>
+        <button class="tab" data-class="7E">KELAS 7E</button>
+        <button class="tab" data-class="7F">KELAS 7F</button>
+        <button class="tab" data-class="7G">KELAS 7G</button>
+
+    </nav>
+
+    <!-- Card -->
+    <main class="container">
+
+        <div class="table-card">
+
+            <table id="studentTable">
+
+                <thead>
+
+                    <tr>
+                        <th>No</th>
+                        <th>Absen</th>
+                        <th>No. Induk</th>
+                        <th>Nama Peserta Didik</th>
+                        <th>Jenis Kelamin</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="tableBody">
+
+                    <!-- Data akan muncul dari data.js -->
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        © 2026 SMP Negeri 1 Slogohimo
+
+    </footer>
+
+    <!-- Data -->
+    <script src="data.js"></script>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
