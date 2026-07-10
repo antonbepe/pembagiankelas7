@@ -1,0 +1,1444 @@
+{
+"7A":[
+ {
+  "ABSEN": 1,
+  "INDUK": "9267",
+  "NAMA": "ABDUL GHANI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 2,
+  "INDUK": "9268",
+  "NAMA": "Abinaya Raasyid Hanindito",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 3,
+  "INDUK": "9269",
+  "NAMA": "ADAM ROBI'USALAM SAIROJI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 4,
+  "INDUK": "9270",
+  "NAMA": "ADISTYON PUTERI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 5,
+  "INDUK": "9271",
+  "NAMA": "AISYAH KHUMAIRA YUMNA ASYROFINA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 6,
+  "INDUK": "9272",
+  "NAMA": "AKMAL AIDIL AKBAR",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 7,
+  "INDUK": "9273",
+  "NAMA": "ARYA PUTRA RAMDHANI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 8,
+  "INDUK": "9274",
+  "NAMA": "ATIKA MEYZA WIJAYA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 9,
+  "INDUK": "9275",
+  "NAMA": "Daffa Arya Ghossan",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 10,
+  "INDUK": "9276",
+  "NAMA": "DAMAR RAMDHAN ARZAKI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 11,
+  "INDUK": "9277",
+  "NAMA": "DEFA MAULANA PRASTYA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 12,
+  "INDUK": "9278",
+  "NAMA": "DENANDA BILKIS PUTRI ARTRI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 13,
+  "INDUK": "9279",
+  "NAMA": "ESA SYAFA ADZKYA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 14,
+  "INDUK": "9280",
+  "NAMA": "FAREL ZAKI EFENDI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 15,
+  "INDUK": "9281",
+  "NAMA": "Fatih Rayhan Aziz",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 16,
+  "INDUK": "9282",
+  "NAMA": "GAIN ADINA RASHIDA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 17,
+  "INDUK": "9283",
+  "NAMA": "Grace Afifa Fitiya",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 18,
+  "INDUK": "9284",
+  "NAMA": "HABIBAH UMMU HASANAH",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 19,
+  "INDUK": "9285",
+  "NAMA": "HAFIDZ HASSANUDIEN ARSYAD",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 20,
+  "INDUK": "9286",
+  "NAMA": "ISMI MARFUAH",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 21,
+  "INDUK": "9287",
+  "NAMA": "Keylen Mareta Anjani",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 22,
+  "INDUK": "9288",
+  "NAMA": "MELYNA ZAHRATU NIDA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 23,
+  "INDUK": "9289",
+  "NAMA": "Mizael Hizkia Christnandhito",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 24,
+  "INDUK": "9290",
+  "NAMA": "Najwa Fazilla Alfaiqah",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 25,
+  "INDUK": "9291",
+  "NAMA": "NASYA ADELIA HANIFAH",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 26,
+  "INDUK": "9292",
+  "NAMA": "NINO ADITYA PAMUNGKAS",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 27,
+  "INDUK": "9293",
+  "NAMA": "RAFARDHAN AUFANDARREL ATHALLA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 28,
+  "INDUK": "9294",
+  "NAMA": "SALMA ZAHRA RATIFA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 29,
+  "INDUK": "9295",
+  "NAMA": "YOHANA KRISTANTI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 30,
+  "INDUK": "9296",
+  "NAMA": "ZASKIA SYIFA AZ ZAHRA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 31,
+  "INDUK": "9297",
+  "NAMA": "ZULFANIA AZZAHRA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 32,
+  "INDUK": "9298",
+  "NAMA": "ZULLAIKHA AZ ZAHRA",
+  "JK": "P"
+ },
+ {
+  "NAMA": "Jumlah L",
+  "JK": 14
+ },
+ {
+  "NAMA": "Jumlah P",
+  "JK": 18
+ },
+ {
+  "NAMA": "Jumlah ",
+  "JK": 32
+ }
+],
+"7B":[
+ {
+  "ABSEN": 1,
+  "INDUK": "9299",
+  "NAMA": "ADITYA MAULANA ALFARIZKY",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 2,
+  "INDUK": "9300",
+  "NAMA": "ALKHALIFI AZKA PRASETYA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 3,
+  "INDUK": "9301",
+  "NAMA": "AMMAR ABIYYU ABDUL KARIM",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 4,
+  "INDUK": "9302",
+  "NAMA": "ANDINI FITRIA SARI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 5,
+  "INDUK": "9303",
+  "NAMA": "AQILA ALIYA PUTRI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 6,
+  "INDUK": "9304",
+  "NAMA": "AQILAH NAZIFA KHAIRUNNISA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 7,
+  "INDUK": "9305",
+  "NAMA": "ATIKA DWINIDA PUTRI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 8,
+  "INDUK": "9306",
+  "NAMA": "AZKA ALVARO IRAWAN",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 9,
+  "INDUK": "9307",
+  "NAMA": "BAGOES ANINDYA RAMADHAN",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 10,
+  "INDUK": "9308",
+  "NAMA": "BINTANG RIZKY PRATAMA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 11,
+  "INDUK": "9309",
+  "NAMA": "DESTAMA MAHARDIKA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 12,
+  "INDUK": "9310",
+  "NAMA": "Dinda Aulia Syahfitri",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 13,
+  "INDUK": "9311",
+  "NAMA": "EKA NUR SAPUTRI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 14,
+  "INDUK": "9312",
+  "NAMA": "FACHRIASTA USWAH HARIMURTI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 15,
+  "INDUK": "9313",
+  "NAMA": "IBRAHIM PUTRA PAMUNGKAS",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 16,
+  "INDUK": "9314",
+  "NAMA": "Indah Octaviani Fadiyah",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 17,
+  "INDUK": "9315",
+  "NAMA": "Kaira Nur Azizah",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 18,
+  "INDUK": "9316",
+  "NAMA": "KAYSHA PUTRI ARLIN",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 19,
+  "INDUK": "9317",
+  "NAMA": "Kholifah Nur Laily",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 20,
+  "INDUK": "9318",
+  "NAMA": "MUHAMMAD RIZKY HENGKY PRADANA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 21,
+  "INDUK": "9319",
+  "NAMA": "NAKHILLA SEKAR RAMADHANI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 22,
+  "INDUK": "9320",
+  "NAMA": "NATASYA KHAIRUNNISA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 23,
+  "INDUK": "9321",
+  "NAMA": "NAURA NURMAYA RAHMADHANI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 24,
+  "INDUK": "9322",
+  "NAMA": "NESYA FIORENZA AURORA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 25,
+  "INDUK": "9323",
+  "NAMA": "NUMA AFIFAH ARMANTYA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 26,
+  "INDUK": "9324",
+  "NAMA": "Raihana Anivia",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 27,
+  "INDUK": "9325",
+  "NAMA": "REIHAN ADHITYA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 28,
+  "INDUK": "9326",
+  "NAMA": "REYZA AURELIA AZAHRA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 29,
+  "INDUK": "9327",
+  "NAMA": "SARAH LEILA LATHIFAH",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 30,
+  "INDUK": "9328",
+  "NAMA": "SHAFA LEVINA ORDELIA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 31,
+  "INDUK": "9329",
+  "NAMA": "Yoga Za'iim Zakii Akbar",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 32,
+  "INDUK": "9330",
+  "NAMA": "ZAHIRA AKILA KHAIRANI",
+  "JK": "P"
+ },
+ {
+  "NAMA": "Jumlah L",
+  "JK": 12
+ },
+ {
+  "NAMA": "Jumlah P",
+  "JK": 20
+ },
+ {
+  "NAMA": "Jumlah ",
+  "JK": 32
+ }
+],
+"7C":[
+ {
+  "ABSEN": 1,
+  "INDUK": "9331",
+  "NAMA": "Adia Fathina Ramadhani",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 2,
+  "INDUK": "9332",
+  "NAMA": "AINA THALITA ZAHRAN",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 3,
+  "INDUK": "9333",
+  "NAMA": "ALBY AQILA PRANAJA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 4,
+  "INDUK": "9334",
+  "NAMA": "AMANDA JANETA PUTRI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 5,
+  "INDUK": "9335",
+  "NAMA": "Amir Putra Marazyni",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 6,
+  "INDUK": "9336",
+  "NAMA": "ANDI MUHAMAD PRASTIYO",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 7,
+  "INDUK": "9337",
+  "NAMA": "Aqila Putri Maheswari",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 8,
+  "INDUK": "9338",
+  "NAMA": "ARI SUGIARTO",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 9,
+  "INDUK": "9339",
+  "NAMA": "ASHNA ILAYKA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 10,
+  "INDUK": "9340",
+  "NAMA": "AUDREY MULYA PRANANDA SEKARWANGI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 11,
+  "INDUK": "9341",
+  "NAMA": "Az Zahra Roffi Adiibah",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 12,
+  "INDUK": "9342",
+  "NAMA": "Azzahra Nur Afifah",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 13,
+  "INDUK": "9343",
+  "NAMA": "BAGUS PRADIPTA TOLEDO",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 14,
+  "INDUK": "9344",
+  "NAMA": "BILQIS AULIA PUTRI PRABOWO",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 15,
+  "INDUK": "9345",
+  "NAMA": "DEBY AZZAHRA SALWA PUTRI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 16,
+  "INDUK": "9346",
+  "NAMA": "DIMAS HADI WIJAYA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 17,
+  "INDUK": "9347",
+  "NAMA": "FAEYZA AKMAL IBRAHIM",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 18,
+  "INDUK": "9348",
+  "NAMA": "GIAN ADITYA ARDHANI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 19,
+  "INDUK": "9349",
+  "NAMA": "JENIVER L VELENCYA AICHO",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 20,
+  "INDUK": "9350",
+  "NAMA": "JERO NUGROHO",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 21,
+  "INDUK": "9351",
+  "NAMA": "KARISMA SUCI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 22,
+  "INDUK": "9352",
+  "NAMA": "MAHADRI DEMAS AL GIBRAN",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 23,
+  "INDUK": "9353",
+  "NAMA": "MAHESWARA AJIVA SAPUTRA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 24,
+  "INDUK": "9354",
+  "NAMA": "NABIHAN PUTRA HARTANDRA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 25,
+  "INDUK": "9355",
+  "NAMA": "NAYLA ALVIENA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 26,
+  "INDUK": "9356",
+  "NAMA": "SATRIA AJI NUGROHO",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 27,
+  "INDUK": "9357",
+  "NAMA": "SATRIA PUTRA WIJAYA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 28,
+  "INDUK": "9358",
+  "NAMA": "SEKAR AYU LARASATI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 29,
+  "INDUK": "9359",
+  "NAMA": "SEKAR KINASIH ASHILA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 30,
+  "INDUK": "9360",
+  "NAMA": "VANESSA AERYLIN BELVANIA ADI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 31,
+  "INDUK": "9361",
+  "NAMA": "vina naillatul izzah",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 32,
+  "INDUK": "9362",
+  "NAMA": "Zaila Nurul Jannah",
+  "JK": "P"
+ },
+ {
+  "NAMA": "Jumlah L",
+  "JK": 14
+ },
+ {
+  "NAMA": "Jumlah P",
+  "JK": 18
+ },
+ {
+  "NAMA": "Jumlah ",
+  "JK": 32
+ }
+],
+"7D":[
+ {
+  "ABSEN": 1,
+  "INDUK": "9363",
+  "NAMA": "ADHELLA FALISYA ERBIEY",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 2,
+  "INDUK": "9364",
+  "NAMA": "ADISTA ASKA SALSABILA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 3,
+  "INDUK": "9365",
+  "NAMA": "AHMAD FATHONI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 4,
+  "INDUK": "9366",
+  "NAMA": "Alinka Khaira Wilda",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 5,
+  "INDUK": "9367",
+  "NAMA": "ASRI SULISTYO AJI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 6,
+  "INDUK": "9368",
+  "NAMA": "ASTANINDRA AL GHIFARI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 7,
+  "INDUK": "9369",
+  "NAMA": "ATAYA CHIKO JUNIOR",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 8,
+  "INDUK": "9370",
+  "NAMA": "AZZELIA VERINA PUTRI KHALISA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 9,
+  "INDUK": "9371",
+  "NAMA": "DAMARA MIKAELA ANGEL",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 10,
+  "INDUK": "9372",
+  "NAMA": "DIVA ANGGUN PRATIWI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 11,
+  "INDUK": "9373",
+  "NAMA": "EGA APRILIO SURYA SAPUTRA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 12,
+  "INDUK": "9374",
+  "NAMA": "ELISYA ZUHRI YULISTIANI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 13,
+  "INDUK": "9375",
+  "NAMA": "FATAN ADJI PAMUNGKAS",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 14,
+  "INDUK": "9376",
+  "NAMA": "FEANRAMOERRA AFIDA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 15,
+  "INDUK": "9377",
+  "NAMA": "GRISELDA GLENYS AYUNDA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 16,
+  "INDUK": "9378",
+  "NAMA": "GUGUN MAULANA SAPUTRA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 17,
+  "INDUK": "9379",
+  "NAMA": "HERMAWAN BAGUS AJI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 18,
+  "INDUK": "9380",
+  "NAMA": "IGOLDA KRISTIANO BERNADIN",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 19,
+  "INDUK": "9381",
+  "NAMA": "KENES BATARIHAYU MAHARSITO",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 20,
+  "INDUK": "9382",
+  "NAMA": "KYNATHA ZAHRATU NIDA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 21,
+  "INDUK": "9383",
+  "NAMA": "LINTANG PUTRI HAPSARI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 22,
+  "INDUK": "9384",
+  "NAMA": "MIEKO CINTA MAHESTRI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 23,
+  "INDUK": "9385",
+  "NAMA": "MUHAMMAD DAFFA ARDIANSYAH",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 24,
+  "INDUK": "9386",
+  "NAMA": "NADIYA MAULIDA HUSNA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 25,
+  "INDUK": "9387",
+  "NAMA": "NAUFAL RASYDAN AHNAF",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 26,
+  "INDUK": "9388",
+  "NAMA": "ODILIA KEIYA AILANI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 27,
+  "INDUK": "9389",
+  "NAMA": "PURI KINANTI PRABANALA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 28,
+  "INDUK": "9390",
+  "NAMA": "RAISSA BELVINA NOVANT KIRANA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 29,
+  "INDUK": "9391",
+  "NAMA": "Roihan Adillah Pratama",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 30,
+  "INDUK": "9392",
+  "NAMA": "SHAKILA ANINDYA MAHESWARI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 31,
+  "INDUK": "9393",
+  "NAMA": "WILDAN GONIA PRATAMA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 32,
+  "INDUK": "9394",
+  "NAMA": "ZHINDY ANGGRAINI",
+  "JK": "P"
+ },
+ {
+  "NAMA": "Jumlah L",
+  "JK": 12
+ },
+ {
+  "NAMA": "Jumlah P",
+  "JK": 20
+ },
+ {
+  "NAMA": "Jumlah ",
+  "JK": 32
+ }
+],
+"7E":[
+ {
+  "ABSEN": 1,
+  "INDUK": "9395",
+  "NAMA": "Adizh Abigael",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 2,
+  "INDUK": "9396",
+  "NAMA": "AHMAD OIS AL-HABSYI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 3,
+  "INDUK": "9397",
+  "NAMA": "Akhdan El Azzam",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 4,
+  "INDUK": "9398",
+  "NAMA": "AKHDAN LATIF AZIZAN",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 5,
+  "INDUK": "9399",
+  "NAMA": "ALAN ZIDAN CRYSTYANTO",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 6,
+  "INDUK": "9400",
+  "NAMA": "Alhisyam Adli Pratama",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 7,
+  "INDUK": "9401",
+  "NAMA": "Aliana Cantika",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 8,
+  "INDUK": "9402",
+  "NAMA": "ANGGI BELLA OKTAVIANI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 9,
+  "INDUK": "9403",
+  "NAMA": "ANITA RISKY WULANDARI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 10,
+  "INDUK": "9404",
+  "NAMA": "ANNISA NUR FADHILAH",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 11,
+  "INDUK": "9405",
+  "NAMA": "AQILA FEBY UFAIRA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 12,
+  "INDUK": "9406",
+  "NAMA": "AQILA PUTRI SEPTIYANI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 13,
+  "INDUK": "9407",
+  "NAMA": "ARDHANI HAFIZ DZAKADITYA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 14,
+  "INDUK": "9408",
+  "NAMA": "ATHARIZZ DHANY HERMAWAN",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 15,
+  "INDUK": "9409",
+  "NAMA": "AYNA CAHYANI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 16,
+  "INDUK": "9410",
+  "NAMA": "Cantika Juliana Siyami",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 17,
+  "INDUK": "9411",
+  "NAMA": "DAMAR MAULANA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 18,
+  "INDUK": "9412",
+  "NAMA": "FAUZI NUR HIDAYAT",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 19,
+  "INDUK": "9413",
+  "NAMA": "HANA SABRINA LITAHAYU",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 20,
+  "INDUK": "9414",
+  "NAMA": "JAGAD PINAJAR MAHAADIATMA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 21,
+  "INDUK": "9415",
+  "NAMA": "JAZMIKA CANDRA AS TUTI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 22,
+  "INDUK": "9416",
+  "NAMA": "KAISA ELHAN LAILAFIRDAUS",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 23,
+  "INDUK": "9417",
+  "NAMA": "Meisya Siar As Sidiq",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 24,
+  "INDUK": "9418",
+  "NAMA": "NADIPA JUANATA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 25,
+  "INDUK": "9419",
+  "NAMA": "NEYLA MOZHA AZ ZAHRA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 26,
+  "INDUK": "9420",
+  "NAMA": "NINDYA ALLWA YULIANI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 27,
+  "INDUK": "9421",
+  "NAMA": "NUHA AFIFAH ARMANTYA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 28,
+  "INDUK": "9422",
+  "NAMA": "SHOFIE SALSABILA JAYADI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 29,
+  "INDUK": "9423",
+  "NAMA": "STEVANI CALISTA PUTRI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 30,
+  "INDUK": "9424",
+  "NAMA": "VIRMAN MAULANA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 31,
+  "INDUK": "9425",
+  "NAMA": "Wa Alda Ektyando",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 32,
+  "INDUK": "9426",
+  "NAMA": "YUCI KAYLEE KAYIMA",
+  "JK": "P"
+ },
+ {
+  "NAMA": "Jumlah L",
+  "JK": 14
+ },
+ {
+  "NAMA": "Jumlah P",
+  "JK": 18
+ },
+ {
+  "NAMA": "Jumlah ",
+  "JK": 32
+ }
+],
+"7F":[
+ {
+  "ABSEN": 1,
+  "INDUK": "9427",
+  "NAMA": "Alby Lutfy  Nurfahry",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 2,
+  "INDUK": "9428",
+  "NAMA": "AHMAD NUR ATHIFAR",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 3,
+  "INDUK": "9429",
+  "NAMA": "ALIFA CAHYAQOLBY RUSDIARA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 4,
+  "INDUK": "9430",
+  "NAMA": "Alifah Salsabila",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 5,
+  "INDUK": "9431",
+  "NAMA": "Alisya Nur Afifah",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 6,
+  "INDUK": "9432",
+  "NAMA": "ALVINNO ARYA PRATAMA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 7,
+  "INDUK": "9433",
+  "NAMA": "ALYA ELMYRA SAKHI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 8,
+  "INDUK": "9434",
+  "NAMA": "ANINDITA ZAILA LARASATI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 9,
+  "INDUK": "9435",
+  "NAMA": "ANISA AZZAHRA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 10,
+  "INDUK": "9436",
+  "NAMA": "AQILLA VALENTIA SYAHWA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 11,
+  "INDUK": "9437",
+  "NAMA": "ARDHAN HAFIDZ ALGHOZALI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 12,
+  "INDUK": "9438",
+  "NAMA": "AULIA DWI RAHMAWATI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 13,
+  "INDUK": "9439",
+  "NAMA": "DAFFA LUTFY FACHRY",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 14,
+  "INDUK": "9440",
+  "NAMA": "DEVAN ALVARO HERNAWAN",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 15,
+  "INDUK": "9441",
+  "NAMA": "ECA SALSABILA KIRANA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 16,
+  "INDUK": "9442",
+  "NAMA": "FAHRI MUHAMAD SAFI'I",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 17,
+  "INDUK": "9443",
+  "NAMA": "FAMELA NUR UTAMI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 18,
+  "INDUK": "9444",
+  "NAMA": "FATTAN SAFARAZ BUDIHANTO",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 19,
+  "INDUK": "9445",
+  "NAMA": "GANDIS DWI SAPUTRI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 20,
+  "INDUK": "9446",
+  "NAMA": "Inggrid Bening Cahaya",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 21,
+  "INDUK": "9447",
+  "NAMA": "KAYLA ALA'ISYA BERLIAN",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 22,
+  "INDUK": "9448",
+  "NAMA": "LUQMAN DZAKY ALMAIR",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 23,
+  "INDUK": "9449",
+  "NAMA": "Muhammad Aufar Musthafa",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 24,
+  "INDUK": "9450",
+  "NAMA": "NADHIFA SALSABILA HERVIANY",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 25,
+  "INDUK": "9451",
+  "NAMA": "NASYA FIORENZA AURORA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 26,
+  "INDUK": "9452",
+  "NAMA": "NAURA INAYA RAFA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 27,
+  "INDUK": "9453",
+  "NAMA": "Rifqi Noviansah",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 28,
+  "INDUK": "9454",
+  "NAMA": "SALWA AZZAHRA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 29,
+  "INDUK": "9455",
+  "NAMA": "SANAFREA AULIA MEYTHESYA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 30,
+  "INDUK": "9456",
+  "NAMA": "SHAQILA CITRA SABRINA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 31,
+  "INDUK": "9457",
+  "NAMA": "YOGA TRI NUGROHO",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 32,
+  "INDUK": "9458",
+  "NAMA": "ZIYFA WIDYANINGRUM",
+  "JK": "P"
+ },
+ {
+  "NAMA": "Jumlah L",
+  "JK": 12
+ },
+ {
+  "NAMA": "Jumlah P",
+  "JK": 20
+ },
+ {
+  "NAMA": "Jumlah ",
+  "JK": 32
+ }
+],
+"7G":[
+ {
+  "ABSEN": 1,
+  "INDUK": "9459",
+  "NAMA": "ABID PUTRA PAMBUDI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 2,
+  "INDUK": "9460",
+  "NAMA": "ADITYA NAUFAL DARY ABIYYU",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 3,
+  "INDUK": "9461",
+  "NAMA": "Al Fata Rahmawati Pramesti",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 4,
+  "INDUK": "9462",
+  "NAMA": "ARNANDO BRIAN FAEYZA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 5,
+  "INDUK": "9463",
+  "NAMA": "ASNA ATIQAH HANIN",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 6,
+  "INDUK": "9464",
+  "NAMA": "ASYILA NAYYA REVINA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 7,
+  "INDUK": "9465",
+  "NAMA": "Az Zahra Nurul An Nisa",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 8,
+  "INDUK": "9466",
+  "NAMA": "AZAKI EGA LUTFIAN",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 9,
+  "INDUK": "9467",
+  "NAMA": "Azrael Hizkia Christnandhito",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 10,
+  "INDUK": "9468",
+  "NAMA": "ELENA TITO",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 11,
+  "INDUK": "9469",
+  "NAMA": "Elmalia Hera",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 12,
+  "INDUK": "9470",
+  "NAMA": "EXCEL ZIGGY SAVIERO",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 13,
+  "INDUK": "9471",
+  "NAMA": "FEBRIANA RAHAYU",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 14,
+  "INDUK": "9472",
+  "NAMA": "FERLYN SYAQILA ASYHA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 15,
+  "INDUK": "9473",
+  "NAMA": "FRICILLA PUTRI DWIYANA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 16,
+  "INDUK": "9474",
+  "NAMA": "MEGHAN ERLANO",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 17,
+  "INDUK": "9475",
+  "NAMA": "MICHELLA ALYA SAFIQHA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 18,
+  "INDUK": "9476",
+  "NAMA": "MUHAMMAD RIZKY ARYA PRATAMA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 19,
+  "INDUK": "9477",
+  "NAMA": "Muhammad Yusuf Ibrahim",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 20,
+  "INDUK": "9478",
+  "NAMA": "MUTIARA KAIRUNNISA LARASATI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 21,
+  "INDUK": "9479",
+  "NAMA": "NURRAHMA EKA DWI ARYANI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 22,
+  "INDUK": "9480",
+  "NAMA": "Rasya Heppy Destiana",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 23,
+  "INDUK": "9481",
+  "NAMA": "RIFAI JAKARIA ADI LUHUNG",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 24,
+  "INDUK": "9482",
+  "NAMA": "RIFKI CHAIRUL NURROZI",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 25,
+  "INDUK": "9483",
+  "NAMA": "RIZKY ZAKIATHA",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 26,
+  "INDUK": "9484",
+  "NAMA": "SALMA AZZAHRA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 27,
+  "INDUK": "9485",
+  "NAMA": "SEFTIANA EKA PUTRI",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 28,
+  "INDUK": "9486",
+  "NAMA": "VERA ANANDA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 29,
+  "INDUK": "9487",
+  "NAMA": "VIOLLA KHANZA SAHNA",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 30,
+  "INDUK": "9488",
+  "NAMA": "YOSEF FEBRIANTO",
+  "JK": "L"
+ },
+ {
+  "ABSEN": 31,
+  "INDUK": "9489",
+  "NAMA": "ZAHWA ALIFA WIBOWO",
+  "JK": "P"
+ },
+ {
+  "ABSEN": 32,
+  "INDUK": "9490",
+  "NAMA": "ZAINA LIVIANA RAMADHANI",
+  "JK": "P"
+ },
+ {
+  "NAMA": "Jumlah L",
+  "JK": 13
+ },
+ {
+  "NAMA": "Jumlah P",
+  "JK": 19
+ },
+ {
+  "NAMA": "Jumlah ",
+  "JK": 32
+ }
+]
+}
