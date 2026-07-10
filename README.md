@@ -1,1 +1,0 @@
-# pembagiankelas7
