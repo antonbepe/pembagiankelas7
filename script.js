@@ -1,3 +1,5 @@
+const tableBody = document.getElementById("tableBody");
+
 let workbook;
 
 // Membaca file Excel
