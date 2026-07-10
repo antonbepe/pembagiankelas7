@@ -10,6 +10,7 @@ const currentClass = document.getElementById("currentClass");
 const loading = document.getElementById("loading");
 
 let allData = {};
+let activeClass = "7A";
 
 
 // =========================
