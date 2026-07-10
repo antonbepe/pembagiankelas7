@@ -136,7 +136,7 @@ searchInput.addEventListener("keyup", function () {
 
     const data = (allData[activeClass] || []).filter(siswa =>
 
-        siswa.nama.toLowerCase().includes(keyword)
+        siswa.NAMA.toLowerCase().includes(keyword)
 
     );
 
