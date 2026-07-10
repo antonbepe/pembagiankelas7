@@ -15,7 +15,8 @@ function renderTable(kelas) {
     tableBody.innerHTML = "";
 
     // mengambil data sesuai nama kelas
-    const data = studentData[kelas];
+    let studentData = {};
+    async function loadExcel() {
 
     if (!data || data.length === 0) {
 
