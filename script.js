@@ -9,7 +9,7 @@ const studentCount = document.getElementById("studentCount");
 const currentClass = document.getElementById("currentClass");
 const loading = document.getElementById("loading");
 
-let allData = {};
+let allData = {7A};
 
 
 // =========================
