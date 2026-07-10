@@ -208,6 +208,27 @@ tbody tr:hover{
 
 }
 
+#studentTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#studentTable thead {
+    background: #1f66c2;
+}
+
+#studentTable thead th {
+    color: white;
+    font-weight: 600;
+    padding: 16px;
+    text-align: center;
+}
+
+#studentTable tbody td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+}
+
 /* ===========================
    COLUMN WIDTH
 =========================== */
