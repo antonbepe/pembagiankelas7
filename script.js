@@ -1,51 +1,39 @@
+// ==============================
+// Portal Pembagian Kelas
+// SMP Negeri 1 Slogohimo
+// ==============================
+
 const tableBody = document.getElementById("tableBody");
 const tabs = document.querySelectorAll(".tab");
 
-let studentData = {};
-
-// Membaca file Excel
-async function loadExcel() {
-    const response = await fetch("data.xlsx");
-    const arrayBuffer = await response.arrayBuffer();
-
-    const workbook = XLSX.read(arrayBuffer, { type: "array" });
-
-    studentData = {};
-
-    workbook.SheetNames.forEach(sheetName => {
-        const worksheet = workbook.Sheets[sheetName];
-        const json = XLSX.utils.sheet_to_json(worksheet);
-
-        studentData[sheetName] = json.map(item => ({
-            absen: item["Absen"],
-            induk: item["No. Induk"] || item["No Induk"] || "",
-            nama: item["Nama Peserta Didik"] || "",
-            jk: item["Jenis Kelamin"] || ""
-        }));
-    });
-
-    renderTable("7A");
-}
-
-// Menampilkan tabel
 function renderTable(kelas) {
 
     tableBody.innerHTML = "";
+
+    if (typeof studentData === "undefined") {
+        tableBody.innerHTML = `
+        <tr>
+            <td colspan="5" style="padding:30px;text-align:center;color:red">
+                File data.js belum dimuat.
+            </td>
+        </tr>`;
+        return;
+    }
 
     const data = studentData[kelas];
 
     if (!data || data.length === 0) {
         tableBody.innerHTML = `
-            <tr>
-                <td colspan="5" style="text-align:center;padding:30px;">
-                    Data kelas ${kelas} belum tersedia.
-                </td>
-            </tr>
-        `;
+        <tr>
+            <td colspan="5" style="padding:30px;text-align:center">
+                Data kelas ${kelas} belum tersedia.
+            </td>
+        </tr>`;
         return;
     }
 
     data.forEach((siswa, index) => {
+
         const row = document.createElement("tr");
 
         row.innerHTML = `
@@ -60,14 +48,14 @@ function renderTable(kelas) {
     });
 }
 
-// Event tab
 tabs.forEach(tab => {
-    tab.addEventListener("click", function () {
+    tab.addEventListener("click", () => {
+
         tabs.forEach(btn => btn.classList.remove("active"));
-        this.classList.add("active");
-        renderTable(this.dataset.class);
+        tab.classList.add("active");
+
+        renderTable(tab.dataset.class);
     });
 });
 
-// Jalankan saat halaman dibuka
-loadExcel();
+renderTable("7A");
