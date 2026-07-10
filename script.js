@@ -71,6 +71,7 @@ async function loadExcel() {
     }
 
 }
+console.log(workbook.SheetNames);
 
 // =============================
 // Membuat Tab
